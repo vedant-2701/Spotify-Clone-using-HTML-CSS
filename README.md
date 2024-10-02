@@ -30,4 +30,4 @@ Contributions are welcome! Feel free to fork this repo, make improvements, and s
 
 Clone this repository:
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   git clone https://github.com/vedant-2701/Spotify-Clone-using-HTML-CSS.git
