@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <!-- Home and Search -->
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <!-- Home and Search ends-->
+
+            <!-- Library -->
+            <div class="library">
+                <!-- Library, icons -->
+                <div class="options">
+
+                    <!-- Library -->
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="library-icon">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <!-- Icons -->
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+    
+                </div>
+                <!-- ends -->
+
+                <!-- Boxes -->
+                <div class="lib-box">
+
+                    <!-- Box1 -->
+                    <div class="box">
+                        <div class="box-p1">Create your first playlist</div>
+                        <div class="box-p2">It's easy, we'll help you</div>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <!-- Box2 -->
+                    <div class="box">
+                        <div class="box-p1">Let's find some podcasts to follow</div>
+                        <div class="box-p2">We'll keep you updates on new episodes</div>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    
+                </div>
+                <!-- ends -->
+
+            </div>
+            <!-- Library ends-->
+
+        </div>
+        <!-- Sidebar ends -->
+
+        <!-- Main Content -->
+        <div class="main-content">
+            
+            <!-- Sticky Nav -->
+            <div class="sticky-nav">
+                
+                <!-- Backward n Forward button -->
+                <div class="sticky-nav-icons">
+                    <div><img src="./assets/backward_icon.png" alt="backward"></div>
+                    <div><img src="./assets/forward_icon.png" alt="forward"></div>
+                </div>
+                <!-- ends -->
+
+                <!-- Buttons Sticky nav -->
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premiun</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <div class="nav-item"><i class="fa-regular fa-user"></i></div>
+                </div>
+
+            </div>
+            <!-- ends -->
+
+            <!-- Cards -->
+
+            <!-- Individual cards -->
+            <!-- Row1 -->
+            <h2>Recently Played</h2>
+
+            <div class="card-container c1">
+                <!-- Cards1 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/card1img.jpeg" alt="card1" class="card-img"></div>
+                    <div class="card-title">Top 50 - Global</div>
+                    <div class="card-info">Your daily updates of most played tracks</div>
+                </div>
+
+            </div>
+
+            <!-- Row2 -->
+            <h2>Trending now near you</h2>
+
+            <div class="card-container c2">
+                <!-- Card1 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/card2img.jpeg" alt="card1" class="card-img"></div>
+                    <div class="card-title">Top 50 - Global</div>
+                    <div class="card-info">Your daily updates of most played tracks</div>
+                </div>
+                <!-- Card1 ends -->
+
+                <!-- Card2 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/card3img.jpeg" alt="card1" class="card-img"></div>
+                    <div class="card-title">Top 50 - Global</div>
+                    <div class="card-info">Your daily updates of most played tracks</div>
+                </div>
+                <!-- Card2 ends -->
+
+                <!-- Card3 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/card4img.jpeg" alt="card1" class="card-img"></div>
+                    <div class="card-title">Top 50 - Global</div>
+                    <div class="card-info">Your daily updates of most played tracks</div>
+                </div>
+                <!-- Card3 ends -->
+
+                <!-- Card4 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/card5img.jpeg" alt="card1" class="card-img"></div>
+                    <div class="card-title">Top 50 - Global</div>
+                    <div class="card-info">Your daily updates of most played tracks</div>
+                </div>
+                <!-- Card4 ends -->
+
+                <!-- Card5 -->
+                <div class="card hide-card">
+                    <div class="card-img-div"><img src="./assets/card6img.jpeg" alt="card1" class="card-img"></div>
+                    <div class="card-title">Top 50 - Global</div>
+                    <div class="card-info">Your daily updates of most played tracks</div>
+                </div>
+                <!-- Card5 ends -->
+
+            </div>
+            <!-- ends -->
+
+            <!-- Row3 -->
+            <h2>Featured Charts</h2>
+
+            <div class="card-container c2">
+                <!-- Card1 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/box1.png" alt="card1" class="card-img"></div>
+                    <div class="card-title">Today's Top Hits</div>
+                    <div class="card-info">Travis Scott is on top of the Hottest 50!</div>
+                </div>
+                <!-- Card1 ends -->
+
+                <!-- Card2 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/box2.png" alt="card1" class="card-img"></div>
+                    <div class="card-title">All Out 2010s</div>
+                    <div class="card-info">The biggest songs of 2010s.</div>
+                </div>
+                <!-- Card2 ends -->
+
+                <!-- Card3 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/box3.png" alt="card1" class="card-img"></div>
+                    <div class="card-title">RapCaviar</div>
+                    <div class="card-info">Music from Travis Scott, Drake and Latto.</div>
+                </div>
+                <!-- Card3 ends -->
+
+                <!-- Card4 -->
+                <div class="card">
+                    <div class="card-img-div"><img src="./assets/box4.png" alt="card1" class="card-img"></div>
+                    <div class="card-title">Rock Classics</div>
+                    <div class="card-info">Rock legends & epic songs that continue to inspire...</div>
+                </div>
+                <!-- Card4 ends -->
+
+            </div>
+            <!-- ends -->
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+            <!-- ends -->
+
+        </div>
+        <!-- Main Content ends-->
+
+        
+
+        <!-- Music Player -->
+        <div class="music-player">
+
+            <!-- Album -->
+            <div class="album">
+
+                <div class="album-details">
+                    <img src="./assets/album_picture.jpeg" alt="" class="album-cover-img">
+                    <div class="album-info">
+                        <div class="album-title">Rangtaari</div>
+                        <div class="album-singer-name">Dev Negi, Yo Yo Honey Singh</div>
+                    </div>
+                    <img src="./assets/album_icon1.png" alt="" class="album-icons">
+                    <img src="./assets/album_icon2.png" alt="" class="album-icons">
+                </div>
+
+            </div>
+            <!-- Album ends -->
+
+            <!-- Player -->
+            <div class="player">
+
+                <!-- Player control -->
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <!-- Player control ends-->
+
+                <!-- Playback bar -->
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="end-time">3:33</span>
+                </div>
+                <!-- Playback bar ends -->
+
+            </div>
+            <!-- Player ends -->
+
+            <!-- Controls -->
+            <div class="controls">
+
+                <div class="control-icon">
+                    <img src="./assets/controls_icon1.png" alt="" class="adv-control-icons" title="Now playing view">
+                    <img src="./assets/controls_icon2.png" alt="" class="adv-control-icons" title="Lyrics">
+                    <img src="./assets/controls_icon3.png" alt="" class="adv-control-icons" title="Queue">
+                    <img src="./assets/controls_icon4.png" alt="" class="adv-control-icons" title="Connect to a device">
+                    <img src="./assets/controls_icon5.png" alt="" class="adv-control-icons" title="Mute">
+                    <input type="range" min="0" max="100" class="progress-bar volume-progress-bar" step="1">
+                </div>
+
+            </div>
+            <!-- Controls ends -->
+
+        </div>
+        <!-- Music Player ends-->
+
+    </div>
+</body>
+
+</html>
